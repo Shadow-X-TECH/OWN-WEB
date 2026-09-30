@@ -1,2 +1,3 @@
 # OWN-WEB
-My first website.
+
+ Opem the "index.html" file to explore my website easliy.
