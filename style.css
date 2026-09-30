@@ -1,0 +1,66 @@
+*{
+margin:0;
+padding:0;
+font-family:sans-serif;
+}
+nav{
+display:flex;
+justify-content:space-between;
+padding:30px 20px;
+border-bottom:#0000FF 2px solid;
+}
+.logo span{
+color:#0000FF;
+opacity:0.6;
+}
+nav ul li{
+list-style:none;
+color:black;
+font-size:15px;
+transition:0.3s;
+font-weight:bold;
+}
+nav ul li:hover{
+color:#0000FF;
+cursor:pointer;
+font-size:19px;
+}
+nav ul{
+display:flex;
+gap:60px;
+}
+.hero{
+height:90vh;
+display:flex;
+flex-direction:column;
+text-align:center;
+align-items:center;
+justify-content :center;
+background-color:#eff6ff;
+
+}
+.hero p{
+font-size:19px;
+color:grey;
+margin-top:20px;
+}
+.hero h1{
+color:#0000FF;
+font-size:40px;
+}
+button{
+padding:15px 30px;
+border-radius:10px;
+color:#0000FF;
+background:none;
+border:2px solid;
+border-color:#0000FF;
+margin-top:20px;
+}
+button:hover{
+cursor:pointer;
+color:white;
+background:#0000FF;
+transition:0.3s;
+}
+
